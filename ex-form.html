@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro da Liga dos Programadores</h1>
+    <from>
+
+        <label>Nome:</label>
+        <input type="text" name="q" required>
+        <br>
+        <br>
+        <label>Email:</label> 
+        <input type="email" name="q">
+        <label>Senha:</label>
+        <input type="password" name="q"> 
+        <br>
+        <br>
+        <label>Data de Nascimento</label>
+        <input type="date" name="q">
+        <label>Foto:</label>
+        <input type="file" name="q">
+        <br>
+        <br>
+        <label>Nacionalidade:</label>
+        <select id="nacionalidade" name="nacionalidade">
+            <option value="brasil">Brasil</option>
+            <option value="argentina">Argentina</option>
+            <option value="portugal">Portugal</option>
+            <option value="mexico">México</option>
+        </select>
+        <label>Genero:</label>
+        <label for="F">F</label>
+        <input type="radio" id="F" name="genero" value="feminino">
+        <label for="M">M</label>
+        <input type="radio" id="M" name="genero" value="masculinino">
+        <br>
+        <br>
+        <label>Linguagens que você domina:</label>
+        <br>
+        <input type="checkbox">
+        <label>JavaScript -</label>
+        <input type="checkbox">
+        <label>Python -</label>
+        <input type="checkbox">
+        <label>C -</label>
+        <input type="checkbox">
+        <label>Java</label>
+        <br>
+        <br>
+        <textarea name="message" rows="10" cols="30">
+Por que você quer ser um programador?
+        </textarea><br>
+        <input type="submit" value="Criar">
+    </from>
+</body>
+</html>
